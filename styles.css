@@ -1,0 +1,13 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+h1, .submit {
+    color: white;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+}
