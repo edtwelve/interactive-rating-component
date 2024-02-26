@@ -82,3 +82,21 @@ h1, .submit {
     letter-spacing: 0.2em;
     font-weight: 500;
 }
+
+.thanksSection {
+    display: grid;
+    place-items: center;
+    gap: 1.25em;
+}
+
+.sel {
+    color:hsl(25, 97%, 53%);
+    background-color: var(--round-bg);
+    padding: 0.6em;
+    border-radius: 20px;
+}
+
+.finalMsg {
+    color: var(--text-color);
+    text-align: center;
+}
