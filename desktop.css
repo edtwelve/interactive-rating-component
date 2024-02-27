@@ -1,0 +1,32 @@
+.rating button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.text p {
+    font-size: 1.2em;
+}
+
+.focused {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+main {
+    max-width: 30%;
+    padding: 3em;
+}
+
+.sel {
+    margin: 1.0em 0 ;
+    padding: 0.5em 1em;
+}
+
+.finalMsg {
+    font-size: 1.15em;
+    line-height: 1.5em;
+}
