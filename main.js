@@ -21,8 +21,6 @@ img.setAttribute('src', 'images/illustration-thank-you.svg')
             } else {
                 button.classList.toggle('focused');
             }
-            /* alert(`You selected ${selectedRating} out of 5`) */
-            /* button.removeEventListener('click', this.function()); */
             message(selectedRating);
         });
     });
@@ -45,26 +43,6 @@ thanks.append("Thank you!")
 const finalMessage = document.createElement('p');
 finalMessage.className = 'finalMsg';
 finalMessage.append("We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!")
-
-//antes de presionar submit, el programa debe leer el boton de rating que se presiona.
-
-//lo que puedo pasar puede ser simplemente un numero, se evalua con un case y ese es el que se retorna. Cuando tengo el numero lo paso a la impresion del rating
-
-//al final probablemente toque separar la creacion de cada uno de los elementos del thank you.
-
-//Crear funcion que reciba el valor del boton que se presiona, luego de que se reciba, pasarselo a variable y ese pasarselo al submit.
-
-//funcion que recibe el botón que se presiona y llama a otra funcion, mientras le entrega el rating
-
-/* function addElement(contenedor, elemento) {
-    contenedor.appendChild(elemento); // Agregar el elemento como hijo del contenedor
-} */
-
-//remove and place the color background for each button
-/* function focus (){
-    buttons.forEach(button => button.classList.remove('focused'))
-    button.classList.add('focused');
-}; */
 
 function clean() {
     while (main.firstChild) {
