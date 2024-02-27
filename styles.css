@@ -3,6 +3,7 @@
 :root {
     --round-bg: #262f38;
     --text-color: hsl(217, 12%, 63%);
+    --primary: hsl(25, 97%, 53%);
 }
 
 * {
@@ -69,7 +70,7 @@ h1, .submit {
 }
 
 .submit {
-    background-color: hsl(25, 97%, 53%);
+    background-color: var(--primary);
     width: 100%;
 
     padding: 1em;
@@ -83,6 +84,11 @@ h1, .submit {
     font-weight: 500;
 }
 
+.submit:active {
+    background-color: white;
+    color: var(--primary);
+}
+
 .thanksSection {
     display: grid;
     place-items: center;
@@ -90,7 +96,7 @@ h1, .submit {
 }
 
 .sel {
-    color:hsl(25, 97%, 53%);
+    color:var(--primary);
     background-color: var(--round-bg);
     padding: 0.6em;
     border-radius: 20px;
